@@ -87,7 +87,7 @@ SELECT
 	COUNT(*) AS product_count
 FROM gold.dim_products
 GROUP BY product_line
-ORDER BY product_line DESC;
+ORDER BY product_count DESC;
 
 -- Maintenance flag distribution
 SELECT 
